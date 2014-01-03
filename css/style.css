@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'dcc_-_cloudregular';
+  src: url("fonts/dcc_-_cloud-webfont.eot");
+  src: url("fonts/dcc_-_cloud-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/dcc_-_cloud-webfont.woff") format("woff"), url("fonts/dcc_-_cloud-webfont.ttf") format("truetype"), url("fonts/dcc_-_cloud-webfont.svg#dcc_-_cloudregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  height: 2000px;
+  background: #0cbfeb;
+  font-size: 10px; }
+
+h2 {
+  font-family: 'dcc_-_cloudregular';
+  text-align: center;
+  font-size: 6em;
+  color: #fff; }
+
+h1 {
+  text-align: center; }
+
+h3, h4, h5 {
+  margin-top: 0px;
+  font-weight: 700; }
+
+p {
+  font-size: 1.6em; }
+
+h3 {
+  font-size: 2.4em;
+  margin-bottom: 15px; }
+
+.container {
+  width: 100%;
+  position: relative;
+  height: 570px; }
+
+.clear {
+  clear: both; }
+
+.row {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto; }
+
+#clouds .cloud-row {
+  position: absolute;
+  width: 100%;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -ms-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-repeat: repeat-x; }
+  #clouds .cloud-row.r3 {
+    height: 150px;
+    background-image: url("../img/chmurki_tyl_op75.png");
+    opacity: .5; }
+  #clouds .cloud-row.r2 {
+    top: 200px;
+    height: 200px;
+    background-image: url("../img/chmurki_tyl_op75.png"); }
+  #clouds .cloud-row.r1 {
+    top: 400px;
+    height: 250px;
+    background-image: url("../img/chmurki_przod_op100.png"); }
+
+#under-sky {
+  margin-top: -400px; }
+
+#what-we-do {
+  text-align: center; }
+  #what-we-do .block {
+    background: rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    color: #fff;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    cursor: pointer; }
+    #what-we-do .block:hover {
+      background: rgba(255, 255, 255, 0.2); }
+    #what-we-do .block:nth-child(3n) {
+      margin-right: 0px; }
+    #what-we-do .block p {
+      padding: 0 10px 10px 10px; }
